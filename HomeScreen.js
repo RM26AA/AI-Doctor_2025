@@ -13,7 +13,7 @@ import {
 import { SafeAreaView } from "react-native-safe-area-context";
 import { Audio } from "expo-av";
 
-const API_KEY = "AIzaSyAOMKW8BRvFL-JrtVwMIMxSIuRrOUwIY6A"; // add your API key here
+const API_KEY = "ADD GEMNI API KEY HERE"; // add your API key here
 
 export default function HomeScreen() {
   const [messages, setMessages] = useState([]);
@@ -234,3 +234,4 @@ const styles = StyleSheet.create({
     fontSize: 16,
   },
 });
+
